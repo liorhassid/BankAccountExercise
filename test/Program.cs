@@ -32,6 +32,7 @@ namespace test
             c1.TransferMoney(200, y1);
             y1.MonthlyManagement();
             Console.WriteLine(y1.ToString());
+            Console.WriteLine("Success!");
         }
 
     }
